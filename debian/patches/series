@@ -3,3 +3,5 @@
 11_dont_show_shares.patch
 61_outdated_docs.patch
 62_no_gettext.patch
+gthread.patch
+time-libm.patch

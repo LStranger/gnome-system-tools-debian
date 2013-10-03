@@ -12,6 +12,8 @@ DEB_CONFIGURE_EXTRA_FLAGS += --disable-schemas-install \
 	--disable-nautilus \
 	--disable-scrollkeeper
 
+TARBALL_EXT = tar.bz2
+
 DEB_DH_MAKESHLIBS_ARGS_gnome-system-tools += --no-act
 
 binary-install/gnome-system-tools::
