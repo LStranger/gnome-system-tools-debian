@@ -5,3 +5,4 @@
 62_no_gettext.patch
 gthread.patch
 time-libm.patch
+dont-ignore-oobsresult.patch
