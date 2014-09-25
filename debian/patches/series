@@ -7,3 +7,4 @@
 dont-ignore-oobsresult.patch
 gthread.patch
 time-libm.patch
+50_fix_system_tools_pc.patch
