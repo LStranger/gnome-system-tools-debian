@@ -32,8 +32,8 @@ Depends: ${misc:Depends},
          perl,
          system-tools-backends (>= 2.10.1),
          policykit-1-gnome
-Recommends: gnome-control-center (>= 1:2.10.1-1)
-Suggests: ntp
+Suggests: ntp,
+          gnome-control-center (>= 1:2.10.1-1)
 Replaces: ximian-setup-tools, gnome-network-admin
 Conflicts: gnome-network-admin
 Provides: gnome-network-admin
