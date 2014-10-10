@@ -1,8 +1,9 @@
 Source: gnome-system-tools
 Section: gnome
 Priority: optional
-Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Maintainer: Andriy Grytsenko <andrej@rep.kiev.ua>
 Uploaders: @GNOME_TEAM@,
+           Jose Carlos Garcia Sogo <jsogo@debian.org>,
            Niv Sardi <xaiki@debian.org>
 Build-Depends: cdbs (>= 0.4.41),
                autotools-dev,
