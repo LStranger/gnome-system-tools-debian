@@ -1,3 +1,32 @@
+gnome-system-tools (3.0.0-4) unstable; urgency=low
+
+  * New maintainer (Closes: #764266)
+
+  [ Vlad Orlov ]
+  * dont-ignore-oobsresult.patch: new patch. Don't ignore OobsResult in a
+    callback function, show the message dialog instead (Closes: #761824).
+
+  [ Thaddäus Tintenfisch ]
+  * Add 12_fix_exit.patch: Drop unneeded g_object_unref call to fix a
+    segmentation fault on exit after a new user has been created.
+    Adjust gst_users_tool_finalize to fix some warnings/error messages
+    (Closes: #729477).
+
+  [ Andriy Grytsenko ]
+  * debian/control:
+    - Lower the relations with gnome-control-center to Suggests
+      (Closes: #753701).
+    - Bump Standards-Version to 3.9.6 (Fixes lintian warning).
+    - Remove invalid statements from gnome-system-tools.pc.in (Fixes lintian
+      error pkg-config-bad-directive).
+    - Remove Vcs-* fields due to package adoption, new ones will be added later.
+    - Remove system-tools-backends from Depends: liboobs depends on it instead.
+    - Add alternative for policykit-1-gnome: mate-polkit.
+  * debian/copyright:
+    - Change to a machine-readable format (for lintian).
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Fri, 10 Oct 2014 18:34:45 +0300
+
 gnome-system-tools (3.0.0-3) unstable; urgency=low
 
   [ Josselin Mouette ]
