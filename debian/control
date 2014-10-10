@@ -33,8 +33,6 @@ Package: gnome-system-tools
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-         perl,
-         system-tools-backends (>= 2.10.1),
          policykit-1-gnome
 Suggests: ntp,
           gnome-control-center (>= 1:2.10.1-1)
