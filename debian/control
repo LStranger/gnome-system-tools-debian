@@ -33,7 +33,7 @@ Package: gnome-system-tools
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-         policykit-1-gnome
+         policykit-1-gnome | mate-polkit
 Suggests: ntp,
           gnome-control-center (>= 1:2.10.1-1)
 Replaces: ximian-setup-tools, gnome-network-admin
