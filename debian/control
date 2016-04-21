@@ -24,7 +24,7 @@ Build-Depends: cdbs (>= 0.4.41),
                scrollkeeper,
                gnome-doc-utils (>= 0.3.2),
                pkg-config
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: gnome-system-tools
 Architecture: any
