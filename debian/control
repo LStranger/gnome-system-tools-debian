@@ -7,9 +7,6 @@ Source: gnome-system-tools
 Section: gnome
 Priority: optional
 Maintainer: Andriy Grytsenko <andrej@rep.kiev.ua>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>,
-           Jose Carlos Garcia Sogo <jsogo@debian.org>,
-           Niv Sardi <xaiki@debian.org>
 Build-Depends: cdbs (>= 0.4.41),
                autotools-dev,
                dh-autoreconf,
