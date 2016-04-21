@@ -8,3 +8,4 @@ dont-ignore-oobsresult.patch
 gthread.patch
 time-libm.patch
 50_fix_system_tools_pc.patch
+30_fix_services_admin_window.patch
