@@ -21,7 +21,6 @@ Build-Depends: cdbs (>= 0.4.41),
                gettext,
                libxml-parser-perl,
                gnome-pkg-tools,
-               scrollkeeper,
                gnome-doc-utils (>= 0.3.2),
                pkg-config
 Standards-Version: 3.9.8
