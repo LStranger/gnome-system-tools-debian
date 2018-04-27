@@ -1,3 +1,18 @@
+gnome-system-tools (3.0.0-7) unstable; urgency=medium
+
+  * Removing scrollkeeper from build dependencies (Closes: #885630).
+  * Adding max_group_name_32_chars.patch (Closes: #773613, LP: #1371854).
+  * Remove unused files in debian/ directory (Closes: #868981).
+  * Bump debhelper compat to 10.
+  * Bump Standards-Version to 4.1.4.
+  * Making package multiarch-aware.
+  * Dropping GNOME control center mention from description and from suggestions.
+  * Disable services-admin, it does not work with systemd.
+  * Disable network-admin, it's never used nowadays, NetworkManager or Wicd is
+    included into every install.
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Sat, 28 Apr 2018 00:58:16 +0300
+
 gnome-system-tools (3.0.0-6) unstable; urgency=medium
 
   * Adding 00_fix-missing-DATADIRNAME.patch (Closes: #857795).
