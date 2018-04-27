@@ -22,7 +22,7 @@ Build-Depends: cdbs (>= 0.4.41),
                gnome-pkg-tools,
                gnome-doc-utils (>= 0.3.2),
                pkg-config
-Standards-Version: 3.9.8
+Standards-Version: 4.1.4
 
 Package: gnome-system-tools
 Architecture: any
