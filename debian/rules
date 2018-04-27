@@ -10,6 +10,7 @@ LDFLAGS += -Wl,-z,defs -Wl,-O1
 
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-schemas-install \
 	--disable-nautilus \
+	--disable-services \
 	--disable-scrollkeeper \
 	--libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)
 
