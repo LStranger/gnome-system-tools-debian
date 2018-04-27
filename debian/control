@@ -7,7 +7,7 @@ Source: gnome-system-tools
 Section: gnome
 Priority: optional
 Maintainer: Andriy Grytsenko <andrej@rep.kiev.ua>
-Build-Depends: cdbs (>= 0.4.41),
+Build-Depends: cdbs (>= 0.4.93~),
                autotools-dev,
                intltool (>= 0.35.0),
                debhelper (>= 10),
