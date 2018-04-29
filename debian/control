@@ -8,7 +8,6 @@ Section: gnome
 Priority: optional
 Maintainer: Andriy Grytsenko <andrej@rep.kiev.ua>
 Build-Depends: cdbs (>= 0.4.93~),
-               autotools-dev,
                intltool (>= 0.35.0),
                debhelper (>= 10),
                liboobs-1-dev (>= 2.91.1),
