@@ -14,3 +14,4 @@ time-libm.patch
 30_fix_services_admin_window.patch
 00_fix-missing-DATADIRNAME.patch
 max_group_name_32_chars.patch
+70_gst-yelp.patch
