@@ -43,7 +43,7 @@ Bug-Debian: https://bugs.debian.org/947530
 -DOC_INCLUDES =
 -DOC_FIGURES = figures/network-tool.png
 +HELP_ID = network-admin
-+HELP_FILES = legal.xml
++HELP_FILES = network-admin.xml legal.xml
 +HELP_MEDIA = figures/network-tool.png
  
 -DOC_LINGUAS = ca cs de el en_GB es fr oc pt_BR sl sv it zh_CN
@@ -63,7 +63,7 @@ Bug-Debian: https://bugs.debian.org/947530
 -DOC_INCLUDES = 
 -DOC_FIGURES = \
 +HELP_ID = services-admin
-+HELP_FILES = legal.xml
++HELP_FILES = services-admin.xml legal.xml
 +HELP_MEDIA = \
  	figures/services-tool.png
  
@@ -84,7 +84,7 @@ Bug-Debian: https://bugs.debian.org/947530
 -DOC_FIGURES = figures/shares-tool.png
 -DOC_LINGUAS = ca cs de el en_GB es fr gl it oc pt_BR sl sv zh_CN
 +HELP_ID = shares-admin
-+HELP_FILES = legal.xml
++HELP_FILES = shares-admin.xml legal.xml
 +HELP_MEDIA = figures/shares-tool.png
 +HELP_LINGUAS = ca cs de el en_GB es fr gl it oc pt_BR sl sv zh_CN
  
@@ -101,7 +101,7 @@ Bug-Debian: https://bugs.debian.org/947530
 -DOC_INCLUDES = 
 -DOC_FIGURES = \
 +HELP_ID = time-admin
-+HELP_FILES = legal.xml
++HELP_FILES = time-admin.xml legal.xml
 +HELP_MEDIA = \
  	figures/time-map.png		\
  	figures/time-servers.png	\
@@ -124,7 +124,7 @@ Bug-Debian: https://bugs.debian.org/947530
 -DOC_INCLUDES = 
 -DOC_FIGURES = figures/users-tool.png	\
 +HELP_ID = users-admin
-+HELP_FILES = legal.xml
++HELP_FILES = users-admin.xml legal.xml
 +HELP_MEDIA = figures/users-tool.png	\
  	       figures/groups.png
  
@@ -792,15 +792,15 @@ Bug-Debian: https://bugs.debian.org/947530
 -	done
 --- a/src/common/gst-tool.c
 +++ b/src/common/gst-tool.c
-@@ -412,9 +412,9 @@
- 	}
+@@ -400,9 +400,9 @@
+ 		}
  
- 	if (section) {
--		command = g_strconcat ("gnome-help ghelp://", uri, "?", section, NULL);
-+		command = g_strconcat ("xdg-open help://", uri, "?", section, NULL);
- 	} else {
--		command = g_strconcat ("gnome-help ghelp://", uri, NULL);
-+		command = g_strconcat ("xdg-open help://", uri, NULL);
- 	}
- 
+ 		uri = g_build_filename(DATADIR,
+-				       "/gnome/help/",
+-				       help_file,
++				       "/help/",
+ 				       lang,
++				       help_file,
+ 				       help_file_xml,
+ 				       NULL);
  

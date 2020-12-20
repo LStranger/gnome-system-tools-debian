@@ -14,7 +14,6 @@ Build-Depends: cdbs (>= 0.4.93~),
                gettext,
                libxml-parser-perl,
                gnome-pkg-tools,
-               yelp,
                yelp-tools,
                pkg-config
 Standards-Version: 4.5.0
@@ -27,7 +26,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          policykit-1-gnome | mate-polkit
-Recommends: xdg-utils
+Recommends: yelp
 Suggests: ntp
 Replaces: ximian-setup-tools, gnome-network-admin
 Conflicts: gnome-network-admin
