@@ -28,9 +28,7 @@ Depends: ${misc:Depends},
          policykit-1-gnome | mate-polkit
 Recommends: yelp
 Suggests: ntp
-Replaces: ximian-setup-tools, gnome-network-admin
-Conflicts: gnome-network-admin
-Provides: gnome-network-admin
+Replaces: ximian-setup-tools
 Description: Cross-platform configuration utilities
  These System Tools (known as GNOME System Tools) are a set of tools aimed to
  make easy the job that means the computer administration on an UNIX or Linux
