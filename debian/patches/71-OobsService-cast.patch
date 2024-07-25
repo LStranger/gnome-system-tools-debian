@@ -1,0 +1,15 @@
+Description: fix error on casting GObject pointer to OobsService pointer.
+Author: Andriy Grytsenko <andrej@rep.kiev.ua>
+Bug-Debian: https://bugs.debian.org/1075028
+
+--- a/src/time/time-tool.c
++++ b/src/time/time-tool.c
+@@ -106,7 +106,7 @@
+ 		role = gst_service_get_role (OOBS_SERVICE (service));
+ 
+ 		if (role == GST_ROLE_NTP_SERVER)
+-			tool->ntp_service = g_object_ref (service);
++			tool->ntp_service = (OobsService *)g_object_ref (service);
+ 
+ 		g_object_unref (service);
+ 		valid = oobs_list_iter_next (list, &iter);
